@@ -11,6 +11,11 @@
     </head>
     <body>
         <div class="page-header">
+            {% if user.is_authenticated %}
+                <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+                <!-- A classe "glyphicon glyphicon-plus" é fornecida pelo tema (bootstrap) que estamos usando, 
+                e nos mostrará um sinal de mais. -->
+            {% endif %}
             <h1><a href="/">Django Man Blog</a></h1>
         </div>
         <div class="content container">
