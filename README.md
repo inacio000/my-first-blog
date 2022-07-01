@@ -1,4 +1,4 @@
-# My blog (First project using Django)
+# My blog
 
 <div align-"center">
 <img src="https://user-images.githubusercontent.com/84747204/176970274-7aab9dbe-0395-41ef-96bb-6c011ebc9766.png"/>
